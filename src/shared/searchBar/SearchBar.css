@@ -1,0 +1,43 @@
+.searchbar-content {
+  max-width: 1280px;
+  width: 50%;
+  height: 45px;
+  background:#6073D6;
+  margin: 0 auto;
+  border-radius: 40px;
+  position: relative;
+  color:white;
+  margin-top: 20px;
+}
+
+.fa-search {
+  position: absolute;
+  left: 20px;
+  top: 6px;
+  color:white;
+}
+
+.searchbar-input {
+  font-family: helvetica;
+  font-size: 28px;
+  position: absolute;
+  left: 70px;
+  top: -3px;
+  border: 0;
+  background: transparent;
+  height: 40px;
+  color: white;
+}
+::placeholder{
+  color:white;
+}
+.searchbar-input:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 720px) {
+  .searchbar-input {
+    font-size: 28px;
+    color: white;
+  }
+}
